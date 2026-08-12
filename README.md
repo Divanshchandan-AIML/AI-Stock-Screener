@@ -66,8 +66,8 @@ The final audit confirmed:
 
 ## Project Structure
 
-```text
-AI_Stock_Screener/
+```text      
+A I_Stock_Scre ener/
 │
 ├── data/
 │   ├── stage20/
