@@ -1,0 +1,2 @@
+Stock,Symbol,Signal,Signal Date,Entry Price,Shares,Stop Loss,Take Profit,Latest Price,Bars Held,Unrealized Net PnL,Return %,Status
+-,-,-,,0.0,0,0.0,0.0,0.0,0,0.0,0.0,NO_OPEN_POSITIONS

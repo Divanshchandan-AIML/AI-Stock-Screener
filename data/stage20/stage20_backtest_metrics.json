@@ -1,0 +1,29 @@
+{
+    "initial_capital": 100000.0,
+    "final_equity": 105006.36,
+    "total_return_percent": 5.0064,
+    "maximum_drawdown_percent": -9.3688,
+    "sharpe_ratio": 2.5319,
+    "profit_factor": 1.3221,
+    "total_trades": 144,
+    "winning_trades": 76,
+    "losing_trades": 68,
+    "win_rate_percent": 52.7778,
+    "buy_trades": 64,
+    "sell_trades": 80,
+    "accuracy_percent": 52.5581,
+    "precision_percent": 52.7778,
+    "recall_percent": 52.7778,
+    "train_rows": 855,
+    "test_rows": 215,
+    "test_start": "2026-06-05 00:00:00+05:30",
+    "test_end": "2026-08-05 00:00:00+05:30",
+    "probability_threshold": 0.55,
+    "transaction_cost": 0.001,
+    "confusion_matrix": {
+        "true_negative": 56,
+        "false_positive": 51,
+        "false_negative": 51,
+        "true_positive": 57
+    }
+}

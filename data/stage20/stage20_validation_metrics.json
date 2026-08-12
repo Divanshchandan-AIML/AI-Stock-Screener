@@ -1,0 +1,94 @@
+{
+    "stage": "20.7",
+    "classification": {
+        "accuracy_percent": 52.55813953488372,
+        "buy_prediction_accuracy_percent": 52.77777777777778,
+        "sell_prediction_accuracy_percent": 52.336448598130836,
+        "actual_up": 108,
+        "actual_down": 107,
+        "predicted_buy": 108,
+        "predicted_sell": 107
+    },
+    "trade_performance": {
+        "total_trades": 144,
+        "winning_trades": 76,
+        "losing_trades": 68,
+        "win_rate_percent": 52.77777777777778,
+        "average_trade_return_percent": 0.3449268169436189,
+        "total_trade_return_percent": 49.66946163988112,
+        "profit_factor": 1.3220591300266826,
+        "buy_trades": 64,
+        "sell_trades": 80
+    },
+    "equity": {
+        "initial_equity": 99833.24902030638,
+        "final_equity": 105006.35685136104,
+        "total_return_percent": 5.181748447355883,
+        "maximum_drawdown_percent": -9.368778332660899,
+        "sharpe_ratio": 1.380138905064906
+    },
+    "direction_analysis": {
+        "BUY": {
+            "trades": 64,
+            "win_rate_percent": 48.4375,
+            "average_return_percent": -0.2645881108645049,
+            "total_return_percent": -16.933639095328314
+        },
+        "SELL": {
+            "trades": 80,
+            "win_rate_percent": 56.25,
+            "average_return_percent": 0.8325387591901178,
+            "total_return_percent": 66.60310073520942
+        }
+    },
+    "decision": {
+        "decision": "PASS",
+        "checks_passed": 6,
+        "checks_failed": 0,
+        "total_return_percent": 5.181748447355883,
+        "accuracy_percent": 52.55813953488372,
+        "win_rate_percent": 52.77777777777778,
+        "profit_factor": 1.3220591300266826,
+        "maximum_drawdown_percent": -9.368778332660899,
+        "sharpe_ratio": 1.380138905064906,
+        "total_trades": 144,
+        "checks": [
+            "PASS: ML accuracy",
+            "PASS: Win rate",
+            "PASS: Profit factor",
+            "PASS: Maximum drawdown",
+            "PASS: Minimum trade count",
+            "PASS: Sharpe ratio"
+        ]
+    },
+    "source_backtest_metrics": {
+        "initial_capital": 100000.0,
+        "final_equity": 105006.36,
+        "total_return_percent": 5.0064,
+        "maximum_drawdown_percent": -9.3688,
+        "sharpe_ratio": 2.5319,
+        "profit_factor": 1.3221,
+        "total_trades": 144,
+        "winning_trades": 76,
+        "losing_trades": 68,
+        "win_rate_percent": 52.7778,
+        "buy_trades": 64,
+        "sell_trades": 80,
+        "accuracy_percent": 52.5581,
+        "precision_percent": 52.7778,
+        "recall_percent": 52.7778,
+        "train_rows": 855,
+        "test_rows": 215,
+        "test_start": "2026-06-05 00:00:00+05:30",
+        "test_end": "2026-08-05 00:00:00+05:30",
+        "probability_threshold": 0.55,
+        "transaction_cost": 0.001,
+        "confusion_matrix": {
+            "true_negative": 56,
+            "false_positive": 51,
+            "false_negative": 51,
+            "true_positive": 57
+        }
+    },
+    "validation_note": "This is a historical validation of the existing Stage 20.6 backtest. It is not a guarantee of future trading performance."
+}

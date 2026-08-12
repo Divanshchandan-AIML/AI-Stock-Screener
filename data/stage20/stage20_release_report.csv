@@ -1,0 +1,23 @@
+check,status,value,reason
+Final audit pass rate,PASS,100.00%,35/35 checks passed; 0 failed
+ML accuracy,PASS,52.86%,Minimum required: 50.00%
+Win rate,PASS,100.00%,Minimum required: 50.00%
+Profit factor,PASS,1.0631,Minimum required: 1.00
+Maximum drawdown,PASS,-0.80%,Maximum allowed: -50.00%
+Sharpe ratio,PASS,0.0000,Minimum required: 0.00
+Portfolio position count,PASS,5,Allowed range: 1-20
+Portfolio position validity,PASS,5/5,All positions must be valid
+Final audit report,PASS,1494 bytes,File exists
+Final audit metrics,PASS,360 bytes,File exists
+Backtest results,PASS,108107 bytes,File exists
+Backtest metrics,PASS,833 bytes,File exists
+Walk-forward results,PASS,133336 bytes,File exists
+Walk-forward metrics,PASS,1766 bytes,File exists
+Risk validation,PASS,145213 bytes,File exists
+Risk metrics,PASS,5664 bytes,File exists
+Optimization results,PASS,14911 bytes,File exists
+Optimization metrics,PASS,500 bytes,File exists
+Portfolio,PASS,2461 bytes,File exists
+Portfolio validation,PASS,3295 bytes,File exists
+Portfolio validation metrics,PASS,701 bytes,File exists
+Final candidates,PASS,1018 bytes,File exists

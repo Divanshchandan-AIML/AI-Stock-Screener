@@ -1,0 +1,23 @@
+{
+  "release": "AI_Stock_Screener_Final",
+  "created_at": "2026-08-12T19:05:36.450170+00:00",
+  "audit_decision": "RELEASE_READY",
+  "promotion_decision": "PROMOTION_READY",
+  "paper_trading_only": true,
+  "live_trading": "DISABLED",
+  "files": [
+    "stage21_paper_trades.csv",
+    "stage21_metrics.json",
+    "stage22_evaluation_report.csv",
+    "stage22_metrics.json",
+    "stage23_health_report.csv",
+    "stage23_metrics.json",
+    "stage24_risk_controlled_trades.csv",
+    "stage24_metrics.json",
+    "stage25_health_report.csv",
+    "stage25_metrics.json",
+    "stage26_health_report.csv",
+    "stage26_release_summary.json",
+    "stage26_release_manifest.json"
+  ]
+}

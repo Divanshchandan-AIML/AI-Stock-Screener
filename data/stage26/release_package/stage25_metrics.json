@@ -1,0 +1,28 @@
+{
+  "stage": "25",
+  "stage_name": "Final Risk-Controlled Promotion Gate",
+  "generated_at": "2026-08-12T18:52:49.558034+00:00",
+  "source_stage": "24",
+  "paper_trading_only": true,
+  "thresholds": {
+    "minimum_win_rate": 0.5,
+    "minimum_profit_factor": 1.0,
+    "minimum_sharpe": 0.0,
+    "maximum_allowed_drawdown": -0.3
+  },
+  "risk_controlled_metrics": {
+    "trades": 182,
+    "win_rate": 0.5769230769230769,
+    "total_return": 0.684467462789196,
+    "maximum_drawdown": -0.24749568656554755,
+    "profit_factor": 1.4700702873788425,
+    "sharpe_ratio": 2.2445668752169006
+  },
+  "checks": {
+    "total": 11,
+    "passed": 11,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "final_decision": "PROMOTION_READY"
+}

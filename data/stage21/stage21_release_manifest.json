@@ -1,0 +1,22 @@
+{
+    "stage": "21",
+    "stage_name": "Production Readiness & Paper Trading Monitor",
+    "generated_at": "2026-08-12T17:51:02.714061+00:00",
+    "paper_trading_only": true,
+    "source_stage": "20",
+    "source_directory": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage20",
+    "output_directory": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage21",
+    "final_decision": "READY",
+    "checks": {
+        "total": 42,
+        "passed": 42,
+        "failed": 0,
+        "pass_rate": 1.0
+    },
+    "artifacts": {
+        "health_report": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage21\\stage21_health_report.csv",
+        "paper_trades": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage21\\stage21_paper_trades.csv",
+        "monitoring_snapshot": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage21\\stage21_monitoring_snapshot.csv",
+        "metrics": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage21\\stage21_metrics.json"
+    }
+}

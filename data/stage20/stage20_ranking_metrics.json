@@ -1,0 +1,15 @@
+{
+    "generated_at": "2026-08-12T21:30:10.639973",
+    "stocks_ranked": 5,
+    "buy_predictions": 1,
+    "sell_predictions": 4,
+    "stage19_agreement": 2,
+    "stage19_conflict": 1,
+    "strong": 0,
+    "candidate": 3,
+    "watch": 2,
+    "weak": 0,
+    "ml_weight": 0.6,
+    "stage19_weight": 0.25,
+    "confidence_weight": 0.15
+}

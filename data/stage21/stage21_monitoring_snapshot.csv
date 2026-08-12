@@ -1,0 +1,2 @@
+timestamp,stage,paper_trading_only,stage20_artifacts_present,stage20_artifacts_total,portfolio_positions,buy_positions,sell_positions,portfolio_exposure,largest_position,ml_accuracy,paper_trades,paper_win_rate,paper_total_return,paper_maximum_drawdown,paper_profit_factor,paper_sharpe_ratio,paper_ending_capital
+2026-08-12T17:51:02.699612+00:00,21,True,16,16,5,2,3,99.99999999999996,20.75348903665191,0.514018691588785,182,0.5769230769230769,1.5920752238244793,-0.4515526284852459,1.4700702873788425,1.9075150493824928,259207.52238244793

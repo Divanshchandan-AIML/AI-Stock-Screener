@@ -1,0 +1,37 @@
+{
+  "stage": "24",
+  "stage_name": "Risk Control & Drawdown Reduction",
+  "generated_at": "2026-08-12T18:48:54.093012+00:00",
+  "paper_trading_only": true,
+  "input_file": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage21\\stage21_paper_trades.csv",
+  "risk_parameters": {
+    "max_position_size": 0.5,
+    "maximum_drawdown_limit": -0.3,
+    "minimum_win_rate": 0.5,
+    "minimum_profit_factor": 1.0,
+    "minimum_sharpe": 0.0
+  },
+  "original_metrics": {
+    "trades": 182,
+    "win_rate": 0.5769230769230769,
+    "total_return": 1.5920752238244793,
+    "maximum_drawdown": -0.4515526284852459,
+    "profit_factor": 1.4700702873788425,
+    "sharpe_ratio": 2.2445668752169006
+  },
+  "risk_controlled_metrics": {
+    "trades": 182,
+    "win_rate": 0.5769230769230769,
+    "total_return": 0.684467462789196,
+    "maximum_drawdown": -0.24749568656554755,
+    "profit_factor": 1.4700702873788425,
+    "sharpe_ratio": 2.2445668752169006
+  },
+  "checks": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "final_decision": "READY_FOR_STAGE_25"
+}

@@ -1,0 +1,16 @@
+{
+    "stage": "20.10",
+    "source_file": "data/stage20\\stage20_walk_forward_results.csv",
+    "tested_configurations": 112,
+    "best_rank": 1,
+    "confidence_threshold": 0.65,
+    "position_size": 1.0,
+    "max_positions": 20,
+    "trades": 182,
+    "win_rate": 0.5769230769230769,
+    "total_return": 1.5920752238244793,
+    "maximum_drawdown": -0.4515526284852459,
+    "profit_factor": 1.4700702873788425,
+    "sharpe_ratio": 1.9075150493824928,
+    "final_decision": "REVIEW"
+}

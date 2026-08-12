@@ -1,0 +1,45 @@
+timestamp,category,check,status,value,threshold,message
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage21_stage21_health_report.csv_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage21\stage21_health_report.csv,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage21_stage21_metrics.json_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage21\stage21_metrics.json,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage21_stage21_monitoring_snapshot.csv_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage21\stage21_monitoring_snapshot.csv,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage21_stage21_paper_trades.csv_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage21\stage21_paper_trades.csv,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage21_stage21_release_manifest.json_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage21\stage21_release_manifest.json,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage22_stage22_evaluation_report.csv_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage22\stage22_evaluation_report.csv,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage22_stage22_metrics.json_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage22\stage22_metrics.json,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage22_stage22_release_manifest.json_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage22\stage22_release_manifest.json,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage23_stage23_health_report.csv_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage23\stage23_health_report.csv,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage23_stage23_metrics.json_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage23\stage23_metrics.json,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage23_stage23_release_manifest.json_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage23\stage23_release_manifest.json,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage24_stage24_health_report.csv_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage24\stage24_health_report.csv,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage24_stage24_metrics.json_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage24\stage24_metrics.json,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage24_stage24_risk_controlled_trades.csv_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage24\stage24_risk_controlled_trades.csv,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage24_stage24_release_manifest.json_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage24\stage24_release_manifest.json,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage25_stage25_health_report.csv_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage25\stage25_health_report.csv,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage25_stage25_metrics.json_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage25\stage25_metrics.json,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.291225+00:00,ARTIFACT,stage25_stage25_release_manifest.json_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage25\stage25_release_manifest.json,EXISTS,Required release artifact must exist.
+2026-08-12T19:05:36.311872+00:00,READABILITY,stage21_health_report.csv_readable,PASS,True,True,CSV artifact must be readable.
+2026-08-12T19:05:36.311872+00:00,READABILITY,stage21_metrics.json_readable,PASS,True,True,JSON artifact must be readable.
+2026-08-12T19:05:36.322334+00:00,READABILITY,stage21_monitoring_snapshot.csv_readable,PASS,True,True,CSV artifact must be readable.
+2026-08-12T19:05:36.322334+00:00,READABILITY,stage21_paper_trades.csv_readable,PASS,True,True,CSV artifact must be readable.
+2026-08-12T19:05:36.322334+00:00,READABILITY,stage21_release_manifest.json_readable,PASS,True,True,JSON artifact must be readable.
+2026-08-12T19:05:36.332939+00:00,READABILITY,stage22_evaluation_report.csv_readable,PASS,True,True,CSV artifact must be readable.
+2026-08-12T19:05:36.333309+00:00,READABILITY,stage22_metrics.json_readable,PASS,True,True,JSON artifact must be readable.
+2026-08-12T19:05:36.339652+00:00,READABILITY,stage22_release_manifest.json_readable,PASS,True,True,JSON artifact must be readable.
+2026-08-12T19:05:36.348319+00:00,READABILITY,stage23_health_report.csv_readable,PASS,True,True,CSV artifact must be readable.
+2026-08-12T19:05:36.356014+00:00,READABILITY,stage23_metrics.json_readable,PASS,True,True,JSON artifact must be readable.
+2026-08-12T19:05:36.365986+00:00,READABILITY,stage23_release_manifest.json_readable,PASS,True,True,JSON artifact must be readable.
+2026-08-12T19:05:36.374057+00:00,READABILITY,stage24_health_report.csv_readable,PASS,True,True,CSV artifact must be readable.
+2026-08-12T19:05:36.374057+00:00,READABILITY,stage24_metrics.json_readable,PASS,True,True,JSON artifact must be readable.
+2026-08-12T19:05:36.379215+00:00,READABILITY,stage24_risk_controlled_trades.csv_readable,PASS,True,True,CSV artifact must be readable.
+2026-08-12T19:05:36.392024+00:00,READABILITY,stage24_release_manifest.json_readable,PASS,True,True,JSON artifact must be readable.
+2026-08-12T19:05:36.396900+00:00,READABILITY,stage25_health_report.csv_readable,PASS,True,True,CSV artifact must be readable.
+2026-08-12T19:05:36.404754+00:00,READABILITY,stage25_metrics.json_readable,PASS,True,True,JSON artifact must be readable.
+2026-08-12T19:05:36.412957+00:00,READABILITY,stage25_release_manifest.json_readable,PASS,True,True,JSON artifact must be readable.
+2026-08-12T19:05:36.412957+00:00,FINAL_GATE,stage25_metrics_loaded,PASS,True,True,Stage 25 metrics must be readable.
+2026-08-12T19:05:36.412957+00:00,FINAL_GATE,stage25_promotion_ready,PASS,PROMOTION_READY,PROMOTION_READY,Stage 25 must report PROMOTION_READY.
+2026-08-12T19:05:36.412957+00:00,SAFETY,paper_trading_only,PASS,True,True,Paper trading must remain enabled.
+2026-08-12T19:05:36.412957+00:00,FINAL_GATE,stage25_no_failed_checks,PASS,0,0,Stage 25 must have zero failed checks.
+2026-08-12T19:05:36.412957+00:00,RISK,controlled_drawdown,PASS,-0.24749568656554755,-0.3,Controlled maximum drawdown must be at least -30%.
+2026-08-12T19:05:36.412957+00:00,PERFORMANCE,controlled_win_rate,PASS,0.5769230769230769,0.5,Controlled win rate must be at least 50%.
+2026-08-12T19:05:36.412957+00:00,PERFORMANCE,controlled_profit_factor,PASS,1.4700702873788425,1.0,Controlled profit factor must be at least 1.00.
+2026-08-12T19:05:36.412957+00:00,PERFORMANCE,controlled_sharpe,PASS,2.2445668752169006,0.0,Controlled Sharpe ratio must be non-negative.

@@ -1,0 +1,4 @@
+Exit Reason,Trades,Wins,Losses,Break-even,Win Rate %,Net PnL,Average PnL,Average Return %,Average Holding Bars
+STOP_LOSS,3,0,3,0,0.0,-3097.59,-1032.53,-5.2,17.33
+TAKE_PROFIT,2,2,0,0,100.0,3907.42,1953.71,9.8,33.0
+TIME_EXIT,1,0,1,0,0.0,-394.96,-394.96,-1.99,60.0

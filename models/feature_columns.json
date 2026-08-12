@@ -1,0 +1,25 @@
+{
+    "features": [
+        "close",
+        "volume",
+        "return_1d",
+        "return_5d",
+        "return_10d",
+        "sma20",
+        "sma120",
+        "sma20_sma120_ratio",
+        "rsi",
+        "etq_5m",
+        "etq_20m",
+        "etq_60m",
+        "high_low_range",
+        "open_close_range",
+        "volatility_10d",
+        "volatility_20d",
+        "volume_change",
+        "volume_ratio",
+        "momentum_5d",
+        "momentum_20d"
+    ],
+    "feature_count": 20
+}

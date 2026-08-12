@@ -1,0 +1,15 @@
+timestamp,category,check,status,value,threshold,message
+2026-08-12T18:43:01.281187+00:00,ARTIFACT,stage21_paper_trades_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage21\stage21_paper_trades.csv,EXISTS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage21\stage21_paper_trades.csv
+2026-08-12T18:43:01.281187+00:00,ARTIFACT,stage21_metrics_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage21\stage21_metrics.json,EXISTS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage21\stage21_metrics.json
+2026-08-12T18:43:01.281187+00:00,ARTIFACT,stage22_metrics_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage22\stage22_metrics.json,EXISTS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage22\stage22_metrics.json
+2026-08-12T18:43:01.281187+00:00,ARTIFACT,stage22_evaluation_report_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage22\stage22_evaluation_report.csv,EXISTS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage22\stage22_evaluation_report.csv
+2026-08-12T18:43:01.281187+00:00,ARTIFACT,stage22_release_manifest_exists,PASS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage22\stage22_release_manifest.json,EXISTS,C:\Users\divya\Desktop\AI_Stock_Screener\data\stage22\stage22_release_manifest.json
+2026-08-12T18:43:01.281187+00:00,INPUT,stage22_metrics_readable,PASS,READABLE,READABLE,
+2026-08-12T18:43:01.296964+00:00,TRADES,stage21_paper_trades_readable,PASS,182,>0,
+2026-08-12T18:43:01.296964+00:00,PERFORMANCE,paper_win_rate,PASS,0.5769230769230769,0.5,Actual Stage 22 win rate
+2026-08-12T18:43:01.296964+00:00,PERFORMANCE,paper_profit_factor,PASS,1.4700702873788425,1.2,Actual Stage 22 profit factor
+2026-08-12T18:43:01.296964+00:00,PERFORMANCE,paper_sharpe_ratio,PASS,1.9075150493824928,0.8,Actual Stage 22 Sharpe ratio
+2026-08-12T18:43:01.296964+00:00,PERFORMANCE,paper_trade_count,PASS,182,100,Minimum paper-trading sample size
+2026-08-12T18:43:01.296964+00:00,RISK,actual_paper_max_drawdown,FAIL,-0.4515526284852459,-0.3,Actual strategy drawdown must be within limit
+2026-08-12T18:43:01.296964+00:00,SAFETY,paper_trading_only,PASS,True,True,Paper trading must remain enabled
+2026-08-12T18:43:01.296964+00:00,SAFETY,live_trading_disabled,PASS,False,False,Live trading must remain disabled

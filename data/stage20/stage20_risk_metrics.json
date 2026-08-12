@@ -1,0 +1,159 @@
+{
+    "stage": "20.9",
+    "stage_name": "Risk & Robustness Validation",
+    "decision": "REVIEW",
+    "checks": {
+        "ml_accuracy": true,
+        "win_rate": true,
+        "sharpe": false,
+        "total_return": true,
+        "drawdown": false,
+        "fold_min_accuracy": true,
+        "fold_consistency": true,
+        "signal_balance": true,
+        "cost_robustness": false
+    },
+    "core_metrics": {
+        "total_trades": 630,
+        "buy_trades": 243,
+        "sell_trades": 387,
+        "win_rate": 0.526984126984127,
+        "total_return": 0.010776614827466613,
+        "maximum_drawdown": -0.7975509836696794,
+        "profit_factor": 1.0631163784430415,
+        "sharpe_ratio": 0.3560491807613828
+    },
+    "ml_metrics": {
+        "ml_accuracy": 0.5285714285714286,
+        "ml_precision": 0.5102880658436214,
+        "ml_recall": 0.4105960264900662
+    },
+    "fold_robustness": {
+        "fold_count": 3,
+        "fold_accuracy_mean": 0.5285714285714286,
+        "fold_accuracy_min": 0.5142857142857142,
+        "fold_accuracy_max": 0.5476190476190477,
+        "fold_accuracy_spread": 0.03333333333333344,
+        "fold_details": [
+            {
+                "fold": 3,
+                "rows": 210,
+                "accuracy": 0.5476190476190477,
+                "return": 0.6622599366048165,
+                "drawdown": -0.5146491658044465
+            },
+            {
+                "fold": 4,
+                "rows": 210,
+                "accuracy": 0.5142857142857142,
+                "return": -0.6317869942831338,
+                "drawdown": -0.7892578590799144
+            },
+            {
+                "fold": 5,
+                "rows": 210,
+                "accuracy": 0.5238095238095238,
+                "return": 0.6514184169239077,
+                "drawdown": -0.628539995910099
+            }
+        ]
+    },
+    "signal_balance": {
+        "buy_count": 243,
+        "sell_count": 387,
+        "buy_ratio": 0.38571428571428573,
+        "sell_ratio": 0.6142857142857143,
+        "balance_status": "OK"
+    },
+    "transaction_cost_stress": [
+        {
+            "transaction_cost": 0.0,
+            "transaction_cost_percent": 0.0,
+            "total_return": 0.010776614827466613,
+            "maximum_drawdown": -0.7975509836696794,
+            "sharpe_ratio": 0.3560491807613828,
+            "win_rate": 0.526984126984127
+        },
+        {
+            "transaction_cost": 0.001,
+            "transaction_cost_percent": 0.1,
+            "total_return": -0.46216444207812,
+            "maximum_drawdown": -0.8229955704764756,
+            "sharpe_ratio": -0.00937794681258713,
+            "win_rate": 0.5142857142857142
+        },
+        {
+            "transaction_cost": 0.0025,
+            "transaction_cost_percent": 0.25,
+            "total_return": -0.7914910192470324,
+            "maximum_drawdown": -0.8931823564485728,
+            "sharpe_ratio": -0.5575186381735417,
+            "win_rate": 0.5
+        },
+        {
+            "transaction_cost": 0.005,
+            "transaction_cost_percent": 0.5,
+            "total_return": -0.9571580793805347,
+            "maximum_drawdown": -0.9661772207884368,
+            "sharpe_ratio": -1.471086457108466,
+            "win_rate": 0.4666666666666667
+        },
+        {
+            "transaction_cost": 0.01,
+            "transaction_cost_percent": 1.0,
+            "total_return": -0.9982129115082563,
+            "maximum_drawdown": -0.9983503242552977,
+            "sharpe_ratio": -3.298222094978314,
+            "win_rate": 0.4142857142857143
+        }
+    ],
+    "stage20_8_metrics": {
+        "rows_tested": 630,
+        "folds_completed": 3,
+        "ml_accuracy": 0.5285714285714286,
+        "ml_precision": 0.5102880658436214,
+        "ml_recall": 0.4105960264900662,
+        "win_rate": 0.526984126984127,
+        "total_return": 0.010776614827463504,
+        "maximum_drawdown": -0.8053277806052995,
+        "sharpe_ratio": 0.3560491807613828,
+        "fold_metrics": [
+            {
+                "fold": 3,
+                "train_rows": 440,
+                "test_rows": 210,
+                "train_start": "2025-09-23 00:00:00+05:30",
+                "train_end": "2026-01-30 00:00:00+05:30",
+                "test_start": "2026-02-01 00:00:00+05:30",
+                "test_end": "2026-04-02 00:00:00+05:30",
+                "accuracy": 0.5476190476190477,
+                "precision": 0.4166666666666667,
+                "recall": 0.43209876543209874
+            },
+            {
+                "fold": 4,
+                "train_rows": 650,
+                "test_rows": 210,
+                "train_start": "2025-09-23 00:00:00+05:30",
+                "train_end": "2026-04-02 00:00:00+05:30",
+                "test_start": "2026-04-06 00:00:00+05:30",
+                "test_end": "2026-06-05 00:00:00+05:30",
+                "accuracy": 0.5142857142857142,
+                "precision": 0.6458333333333334,
+                "recall": 0.2672413793103448
+            },
+            {
+                "fold": 5,
+                "train_rows": 860,
+                "test_rows": 210,
+                "train_start": "2025-09-23 00:00:00+05:30",
+                "train_end": "2026-06-05 00:00:00+05:30",
+                "test_start": "2026-06-08 00:00:00+05:30",
+                "test_end": "2026-08-05 00:00:00+05:30",
+                "accuracy": 0.5238095238095238,
+                "precision": 0.5225225225225225,
+                "recall": 0.5523809523809524
+            }
+        ]
+    }
+}

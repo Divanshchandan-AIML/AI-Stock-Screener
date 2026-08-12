@@ -1,0 +1,27 @@
+{
+  "stage": "26",
+  "stage_name": "Final Release Audit & Packaging",
+  "generated_at": "2026-08-12T19:05:36.412957+00:00",
+  "audit_decision": "RELEASE_READY",
+  "promotion_decision": "PROMOTION_READY",
+  "paper_trading_only": true,
+  "stage25": {
+    "checks_total": 11,
+    "checks_passed": 11,
+    "checks_failed": 0,
+    "win_rate": 0.5769230769230769,
+    "profit_factor": 1.4700702873788425,
+    "sharpe_ratio": 2.2445668752169006,
+    "maximum_drawdown": -0.24749568656554755
+  },
+  "stage26_checks": {
+    "total": 44,
+    "passed": 44,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "required_artifacts": 18,
+  "artifacts_found": 18,
+  "artifacts_missing": 0,
+  "missing_files": []
+}

@@ -1,0 +1,27 @@
+{
+  "release_name": "AI_Stock_Screener_Final",
+  "release_stage": "26",
+  "generated_at": "2026-08-12T19:05:36.412957+00:00",
+  "audit_decision": "RELEASE_READY",
+  "promotion_decision": "PROMOTION_READY",
+  "paper_trading_only": true,
+  "live_trading": "DISABLED",
+  "stages_validated": [
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26"
+  ],
+  "artifacts": {
+    "health_report": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage26\\stage26_health_report.csv",
+    "release_summary": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage26\\stage26_release_summary.json"
+  },
+  "audit": {
+    "checks_total": 44,
+    "checks_passed": 44,
+    "checks_failed": 0,
+    "pass_rate": 1.0
+  }
+}

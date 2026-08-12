@@ -1,0 +1,46 @@
+Section,Metric,Value
+CONCLUSION,Diagnostic,OOS strategy performance was negative.
+CONCLUSION,Diagnostic,Win rate is low and indicates weak trade selection.
+CONCLUSION,Diagnostic,"Profit factor is below 1.0, meaning losing PnL exceeds winning PnL."
+CONCLUSION,Diagnostic,A high proportion of trades ended through stop loss.
+CONCLUSION,Diagnostic,SBIN was the weakest stock by net PnL.
+CONCLUSION,Diagnostic,BUY signals produced negative net PnL.
+CONCLUSION,Diagnostic,SELL signals produced negative net PnL.
+CONCLUSION,Diagnostic,STOP_LOSS exits were a major source of negative PnL.
+CONCLUSION,Diagnostic,No strategy parameters were changed by Stage 15.
+CONCLUSION,Diagnostic,No real orders were placed.
+OVERALL,Initial Capital,100000.0
+OVERALL,Fast SMMA,20
+OVERALL,Slow SMMA,120
+OVERALL,Holding Period,60
+OVERALL,Stop Loss %,5.0
+OVERALL,Take Profit %,10.0
+OVERALL,Total Trades,9
+OVERALL,Winning Trades,2
+OVERALL,Losing Trades,7
+OVERALL,Break-even Trades,0
+OVERALL,Win Rate %,22.22222222222222
+OVERALL,Loss Rate %,77.77777777777779
+OVERALL,Average Trade PnL,-299.70913333333345
+OVERALL,Average Return %,-1.5117777777777779
+OVERALL,Average Winning PnL,1953.7123000000001
+OVERALL,Average Losing PnL,-943.5438285714287
+OVERALL,Largest Win,1954.7527
+OVERALL,Largest Loss,-1040.7941
+OVERALL,Gross Winning PnL,3907.4246000000003
+OVERALL,Gross Losing PnL,-6604.8068
+OVERALL,Net PnL,-2697.382200000001
+OVERALL,Profit Factor,0.5916031639260062
+OVERALL,Stop Loss Trades,6
+OVERALL,Stop Loss Rate %,66.66666666666666
+OVERALL,Take Profit Trades,2
+OVERALL,Time Exit Trades,1
+OVERALL,Largest Loss Share %,15.758130881284824
+OVERALL,Average Holding Bars,27.444444444444443
+OVERALL,Conclusion,NEGATIVE_OOS_PERFORMANCE
+STOCK,RELIANCE,"Net PnL=1559.80, Win Rate=50.00%"
+STOCK,ITC,"Net PnL=-1035.97, Win Rate=0.00%"
+STOCK,SUZLON,"Net PnL=-1166.12, Win Rate=25.00%"
+STOCK,SBIN,"Net PnL=-2055.09, Win Rate=0.00%"
+SIGNAL,BUY,"Net PnL=-499.72, Win Rate=25.00%"
+SIGNAL,SELL,"Net PnL=-2197.66, Win Rate=20.00%"

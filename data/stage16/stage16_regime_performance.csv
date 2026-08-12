@@ -1,0 +1,6 @@
+Trend Regime,Volatility Regime,Trades,Wins,Losses,Win Rate %,Net PnL,Average PnL,Average Return %,Average Holding Bars
+BEAR,LOW,2,1,1,50.0,914.6,457.3,2.3,41.5
+BEAR,MEDIUM,1,0,1,0.0,-1037.84,-1037.84,-5.19,23.0
+UNKNOWN,LOW,1,0,1,0.0,-394.96,-394.96,-1.99,60.0
+UNKNOWN,MEDIUM,1,1,0,100.0,1952.67,1952.67,9.79,7.0
+UNKNOWN,UNKNOWN,1,0,1,0.0,-1019.59,-1019.59,-5.19,5.0

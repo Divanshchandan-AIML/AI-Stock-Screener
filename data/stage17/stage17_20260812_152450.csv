@@ -1,0 +1,2 @@
+Stock,Symbol,LTP,Bid Price,Bid Quantity,Ask Price,Ask Quantity,Total Buy Quantity,Total Sell Quantity,Last Trade Quantity,Trade Volume,Average Price,SMMA20,SMMA120,RSI,ETQ 5m,ETQ 20m,ETQ 60m,Average LTP 20m,Average LTP 60m,Signal,Confidence,Reasons,Scan Time
+SUZLON,SUZLON,47.07,48.46,350272.0,45.65,201.0,4307388.0,4407752.0,1.0,1336365.0,47.12,51.20232976455647,50.23526795239129,19.90950226244344,218928743.0,1427781162.0,5052641364.0,49.7255,53.605000000000004,HOLD,25.0,"['Price is below SMMA20', 'SMMA20 is above SMMA120', 'RSI is strongly oversold']",2026-08-12 15:24:50

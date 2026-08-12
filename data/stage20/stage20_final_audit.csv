@@ -1,0 +1,36 @@
+category,component,status,value,threshold
+FILE,training_data,PASS,444186,EXISTS
+FILE,predictions,PASS,1389,EXISTS
+FILE,ranked_results,PASS,2273,EXISTS
+FILE,final_candidates,PASS,1018,EXISTS
+FILE,backtest_results,PASS,108107,EXISTS
+FILE,walk_forward_results,PASS,133336,EXISTS
+FILE,risk_validation,PASS,145213,EXISTS
+FILE,optimized_trades,PASS,51499,EXISTS
+FILE,portfolio,PASS,2461,EXISTS
+FILE,portfolio_validation,PASS,3295,EXISTS
+METRICS,training_metrics,PASS,,EXISTS
+METRICS,backtest_metrics,PASS,,EXISTS
+METRICS,walk_forward_metrics,PASS,,EXISTS
+METRICS,risk_metrics,PASS,,EXISTS
+METRICS,optimization_metrics,PASS,,EXISTS
+METRICS,portfolio_metrics,PASS,,EXISTS
+METRICS,portfolio_validation_metrics,PASS,,EXISTS
+DATA,data_training_data,PASS,1070,> 0 ROWS
+DATA,data_predictions,PASS,5,> 0 ROWS
+DATA,data_ranked_results,PASS,5,> 0 ROWS
+DATA,data_final_candidates,PASS,5,> 0 ROWS
+DATA,data_backtest_results,PASS,215,> 0 ROWS
+DATA,data_walk_forward_results,PASS,630,> 0 ROWS
+DATA,data_risk_validation,PASS,630,> 0 ROWS
+DATA,data_optimized_trades,PASS,182,> 0 ROWS
+DATA,data_portfolio,PASS,5,> 0 ROWS
+DATA,data_portfolio_validation,PASS,5,> 0 ROWS
+MODEL,ml_accuracy,PASS,0.5285714285714286,0.5
+MODEL,win_rate,PASS,0.526984126984127,0.5
+MODEL,profit_factor,PASS,1.3221,1.0
+MODEL,sharpe_ratio,PASS,2.5319,0.0
+MODEL,maximum_drawdown,PASS,0.0,-0.5
+PORTFOLIO,portfolio_validation,PASS,PASS,PASS
+PORTFOLIO,valid_positions,PASS,5,5
+PORTFOLIO,portfolio_checks,PASS,0,0

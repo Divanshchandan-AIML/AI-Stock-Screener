@@ -1,0 +1,13 @@
+{
+    "stocks_processed": 5,
+    "strong": 0,
+    "candidate": 0,
+    "watch": 4,
+    "weak": 1,
+    "reject": 0,
+    "buy": 1,
+    "sell": 4,
+    "average_score": 46.4373,
+    "max_score": 61.2378,
+    "min_score": 17.8692
+}

@@ -1,0 +1,42 @@
+{
+    "stage": 23,
+    "stage_name": "Paper Trading Stability & Promotion Gate",
+    "generated_at": "2026-08-12T18:43:01.306635+00:00",
+    "source_stage": 22,
+    "source_trade_stage": 21,
+    "paper_trading_only": true,
+    "live_trading_enabled": false,
+    "actual_performance": {
+        "win_rate": 0.5769230769230769,
+        "profit_factor": 1.4700702873788425,
+        "sharpe_ratio": 1.9075150493824928,
+        "paper_trades": 182,
+        "maximum_drawdown": -0.4515526284852459
+    },
+    "safety": {
+        "paper_trading_only": true,
+        "live_trading_enabled": false
+    },
+    "risk_capped_scenario": {
+        "available": true,
+        "risk_cap": 0.5,
+        "total_return": 0.684467462789196,
+        "maximum_drawdown": -0.24749568656554755,
+        "trade_count": 182
+    },
+    "thresholds": {
+        "minimum_win_rate": 0.5,
+        "minimum_profit_factor": 1.2,
+        "minimum_sharpe": 0.8,
+        "minimum_paper_trades": 100,
+        "maximum_allowed_drawdown": -0.3,
+        "risk_cap": 0.5
+    },
+    "checks": {
+        "total": 14,
+        "passed": 13,
+        "failed": 1,
+        "pass_rate": 0.9285714285714286
+    },
+    "final_decision": "REVIEW"
+}

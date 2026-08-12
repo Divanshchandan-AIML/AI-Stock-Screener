@@ -1,0 +1,5 @@
+Stock,Trades,Wins,Losses,Win Rate %,Net PnL,Average PnL,Largest Win,Largest Loss,Stop Loss Trades,Take Profit Trades,Time Exit Trades,Average Holding Bars
+RELIANCE,2,1,1,50.0,1559.8,779.9,1954.75,-394.96,0,1,1,59.5
+ITC,1,0,1,0.0,-1035.97,-1035.97,0.0,-1035.97,1,0,0,34.0
+SUZLON,4,1,3,25.0,-1166.12,-291.53,1952.67,-1040.79,3,1,0,15.0
+SBIN,2,0,2,0.0,-2055.09,-1027.54,0.0,-1035.5,2,0,0,17.0

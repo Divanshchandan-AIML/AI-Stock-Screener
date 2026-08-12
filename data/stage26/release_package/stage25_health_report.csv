@@ -1,0 +1,12 @@
+timestamp,category,check,status,value,threshold,message
+2026-08-12T18:52:49.531118+00:00,ARTIFACT,stage24_health_report.csv_exists,PASS,True,True,Required Stage 24 artifact must exist.
+2026-08-12T18:52:49.531118+00:00,ARTIFACT,stage24_metrics.json_exists,PASS,True,True,Required Stage 24 artifact must exist.
+2026-08-12T18:52:49.531118+00:00,ARTIFACT,stage24_risk_controlled_trades.csv_exists,PASS,True,True,Required Stage 24 artifact must exist.
+2026-08-12T18:52:49.531118+00:00,ARTIFACT,stage24_release_manifest.json_exists,PASS,True,True,Required Stage 24 artifact must exist.
+2026-08-12T18:52:49.546765+00:00,STAGE24,stage24_checks_passed,PASS,0,0,Stage 24 must have zero failed checks.
+2026-08-12T18:52:49.546765+00:00,PERFORMANCE,win_rate,PASS,0.5769230769230769,0.5,Win rate must meet minimum requirement.
+2026-08-12T18:52:49.546765+00:00,PERFORMANCE,profit_factor,PASS,1.4700702873788425,1.0,Profit factor must meet minimum requirement.
+2026-08-12T18:52:49.546765+00:00,PERFORMANCE,sharpe_ratio,PASS,2.2445668752169006,0.0,Sharpe ratio must meet minimum requirement.
+2026-08-12T18:52:49.546765+00:00,RISK,maximum_drawdown,PASS,-0.24749568656554755,-0.3,Maximum drawdown must remain within the risk limit.
+2026-08-12T18:52:49.546765+00:00,SAFETY,paper_trading_only,PASS,True,True,Live trading must remain disabled.
+2026-08-12T18:52:49.546765+00:00,DATA,valid_trade_count,PASS,182,1,At least one valid trade is required.

@@ -1,0 +1,10 @@
+{
+    "stage": "20.14",
+    "name": "Production Release Gate",
+    "generated_at": "2026-08-12T22:53:02.275826",
+    "decision": "READY",
+    "report": "data/stage20\\stage20_release_report.csv",
+    "metrics": "data/stage20\\stage20_release_metrics.json",
+    "system_status": "APPROVED",
+    "failed_checks": []
+}

@@ -1,0 +1,21 @@
+{
+  "stage": "24",
+  "stage_name": "Risk Control & Drawdown Reduction",
+  "generated_at": "2026-08-12T18:48:54.094281+00:00",
+  "paper_trading_only": true,
+  "source_stage": "21",
+  "input_directory": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage21",
+  "output_directory": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage24",
+  "final_decision": "READY_FOR_STAGE_25",
+  "checks": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "artifacts": {
+    "health_report": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage24\\stage24_health_report.csv",
+    "metrics": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage24\\stage24_metrics.json",
+    "risk_controlled_trades": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage24\\stage24_risk_controlled_trades.csv"
+  }
+}

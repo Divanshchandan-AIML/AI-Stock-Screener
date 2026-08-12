@@ -1,0 +1,18 @@
+{
+  "stage": "25",
+  "stage_name": "Final Risk-Controlled Promotion Gate",
+  "generated_at": "2026-08-12T18:52:49.558034+00:00",
+  "source_stage": "24",
+  "paper_trading_only": true,
+  "final_decision": "PROMOTION_READY",
+  "checks": {
+    "total": 11,
+    "passed": 11,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "artifacts": {
+    "health_report": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage25\\stage25_health_report.csv",
+    "metrics": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage25\\stage25_metrics.json"
+  }
+}

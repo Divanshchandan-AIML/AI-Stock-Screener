@@ -1,0 +1,6 @@
+Holding Category,Trades,Wins,Losses,Win Rate %,Net PnL,Average PnL,Average Return %,Average Bars
+VERY_SHORT,1,0,1,0.0,-1019.59,-1019.59,-5.19,5.0
+SHORT,2,1,1,50.0,911.88,455.94,2.29,6.5
+MEDIUM,4,0,4,0.0,-4149.47,-1037.37,-5.2,27.5
+LONG,1,1,0,100.0,1954.75,1954.75,9.82,59.0
+MAX_HOLDING,1,0,1,0.0,-394.96,-394.96,-1.99,60.0

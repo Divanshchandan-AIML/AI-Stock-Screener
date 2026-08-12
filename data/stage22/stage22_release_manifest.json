@@ -1,0 +1,21 @@
+{
+  "stage": "22",
+  "stage_name": "Paper Trading Evaluation & Promotion Decision",
+  "generated_at": "2026-08-12T18:05:11.039415+00:00",
+  "source_stage": "21",
+  "source_directory": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage21",
+  "output_directory": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage22",
+  "paper_trading_only": true,
+  "live_trading_enabled": false,
+  "final_decision": "CONTINUE_PAPER_TRADING",
+  "checks": {
+    "total": 17,
+    "passed": 17,
+    "failed": 0,
+    "pass_rate": 1.0
+  },
+  "artifacts": {
+    "evaluation_report": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage22\\stage22_evaluation_report.csv",
+    "metrics": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage22\\stage22_metrics.json"
+  }
+}

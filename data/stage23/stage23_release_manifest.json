@@ -1,0 +1,21 @@
+{
+    "stage": "23",
+    "stage_name": "Paper Trading Stability & Promotion Gate",
+    "source_stage": "22",
+    "source_trade_stage": "21",
+    "generated_at": "2026-08-12T18:43:01.306635+00:00",
+    "paper_trading_only": true,
+    "live_trading_enabled": false,
+    "final_decision": "REVIEW",
+    "checks": {
+        "total": 14,
+        "passed": 13,
+        "failed": 1,
+        "pass_rate": 0.9285714285714286
+    },
+    "artifacts": {
+        "health_report": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage23\\stage23_health_report.csv",
+        "metrics": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage23\\stage23_metrics.json",
+        "manifest": "C:\\Users\\divya\\Desktop\\AI_Stock_Screener\\data\\stage23\\stage23_release_manifest.json"
+    }
+}
